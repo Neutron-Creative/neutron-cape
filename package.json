@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Neutron Creative Inc.",
+  "license": "GPLv2",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
