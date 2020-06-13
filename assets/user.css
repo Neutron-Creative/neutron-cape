@@ -1,6 +1,6 @@
 #wpadminbar {
   background: #293038;
-  padding: 0 20px;
+  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -18,6 +18,10 @@
   display: none !important;
 }
 
+#wpadminbar #wp-admin-bar-my-account {
+  padding: 0 20px;
+}
+
 #wpadminbar #wp-admin-bar-my-account img {
   border: none !important;
   border-radius: 100px;
@@ -32,7 +36,7 @@
 
 #wpadminbar #wp-admin-bar-my-account.hover a, #wpadminbar #wp-admin-bar-my-account:hover a {
   background: none;
-  color: #5353EC;
+  color: #FFF;
 }
 
 #wpadminbar #wp-admin-bar-my-account.hover .ab-sub-wrapper, #wpadminbar #wp-admin-bar-my-account.hover .ab-sub-wrapper *, #wpadminbar #wp-admin-bar-my-account:hover .ab-sub-wrapper, #wpadminbar #wp-admin-bar-my-account:hover .ab-sub-wrapper * {
@@ -42,9 +46,9 @@
 #wpadminbar #wp-admin-bar-site-name {
   background-image: url("/wp-content/plugins/neutron-cape/assets/Sidebar-brandmark.svg");
   background-size: 80px;
-  background-position: 10px center;
+  background-position: center;
   background-repeat: no-repeat;
-  width: 100px;
+  width: 140px;
 }
 
 #wpadminbar #wp-admin-bar-site-name.hover, #wpadminbar #wp-admin-bar-site-name:hover {

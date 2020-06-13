@@ -4,7 +4,9 @@ $bill-purple: #5353EC
 $toolbar-width: 225px
 $admin-bar-height: 55px
 	
-@media(min-width: 960px)
+@media(min-width: 960px) 
+	#wpfooter
+		display: none
 	#wpadminbar
 		display: flex
 		flex-direction: row
@@ -87,7 +89,6 @@ $admin-bar-height: 55px
 		a.ab-item
 			color: #000000
 			opacity: .65
-
 	#wpcontent
 		margin-left: $toolbar-width
 		padding: 40px 60px
@@ -102,17 +103,13 @@ $admin-bar-height: 55px
 		h1
 			font-size: 32px
 			font-weight: 600
-			color: $naval-steel
-			
-
+			color: $naval-steel		
 	html.wp-toolbar
 		padding-top: $admin-bar-height
-
 	#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap
 		background-color: $naval-steel
 		width: $toolbar-width
 		margin-bottom: 0
-
 	#adminmenuwrap
 		position: fixed
 		top: 0
@@ -126,7 +123,6 @@ $admin-bar-height: 55px
 		background-size: 100px
 		background-position: 20px 20px
 		background-repeat: no-repeat
-		
 	ul#adminmenu
 		display: flex
 		flex-direction: column
@@ -175,18 +171,13 @@ $admin-bar-height: 55px
 					color: $bill-purple
 				&::after
 					display: none
-
 	// Configure Default Menu Items
 	#toplevel_page_wps_overview_page
 		display: none !important
-
 	#menu-settings
 		margin-top: auto !important
-	
 	#collapse-menu
 		display: none !important
-
-
 	.wrap .add-new-h2, .wrap .add-new-h2:active, .wrap .page-title-action, .wrap .page-title-action:active
 		border-color: $bill-purple
 		background: rgba(83,83,267,.1)

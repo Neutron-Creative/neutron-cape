@@ -1,4 +1,7 @@
 @media (min-width: 960px) {
+  #wpfooter {
+    display: none;
+  }
   #wpadminbar {
     display: -webkit-box;
     display: -ms-flexbox;
