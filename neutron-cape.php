@@ -3,7 +3,7 @@
    Plugin Name: Neutron Cape!
    Plugin URI: https://getneutron.com
    description: A pretty dress for WordPress!
-   Version: 1.0
+   Version: 1.0.0
    Author: Neutron Creative Inc.
    Author URI: https://neutroncreative.com
    License: GPL2
@@ -61,14 +61,15 @@ function whitelabel_login() {
 	?>
 		<style type="text/css">
 			body {
-				background: #F5F6F8 !important;
+				background: #19222D !important;
 			}
 			#login h1 a {
-				background: url('https://getneutron.com/wp-content/uploads/2020/05/NC-Favicon.png') !important;
+				background: url('/wp-content/plugins/neutron-cape/assets/Sidebar-brandmark.svg') !important;
 				background-size: contain !important;
 				background-repeat: no-repeat !important;
-				width: 65px !important;
-				
+				width: 165px !important;
+            background-position: center !important;
+            outline: none !important;
 			}
 			body.login div#login p#backtoblog {
 			  display: none !important;
