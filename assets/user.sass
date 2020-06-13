@@ -1,0 +1,53 @@
+$naval-steel: #293038
+
+#wpadminbar
+	background: $naval-steel
+	padding: 0 20px
+	box-sizing: border-box
+	li.hover, li:hover
+		box-shadow:inset 0 -100px rgba(83,83,267,.1) !important
+		a
+			background: none
+		.ab-sub-wrapper, .ab-sub-wrapper *
+			display: none !important
+	#wp-admin-bar-my-account
+		img
+				border: none !important
+				border-radius: 100px
+				width: 22px
+				height: 22px
+		&.hover, &:hover
+			box-shadow:inset 0 -100px rgba(83,83,267,.1) !important
+			a
+				background: none
+				color: #5353EC
+			.ab-sub-wrapper, .ab-sub-wrapper *
+				display: none !important
+	#wp-admin-bar-site-name
+		background-image: url('/wp-content/plugins/neutron-cape/assets/Sidebar-brandmark.svg')
+		background-size: 80px
+		background-position: 10px center
+		background-repeat: no-repeat
+		width: 100px
+		&.hover, &:hover
+			box-shadow:inset 0 -100px rgba(83,83,267,.1) !important
+			a
+				background: none
+			.ab-sub-wrapper, .ab-sub-wrapper *
+				display: none !important
+		.ab-item
+			color: rgba(0,0,0,0) !important
+			&::before
+				display: none
+	#wp-admin-bar-customize
+		display: none
+	#wp-admin-bar-updates
+		display: none
+	#wp-admin-bar-comments
+		display: none
+	#wp-admin-bar-new-content
+		display: none
+	#wp-admin-bar-search
+		display: none
+	#wp-admin-bar-wp-logo
+		display: none

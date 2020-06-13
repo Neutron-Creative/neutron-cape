@@ -1,0 +1,94 @@
+#wpadminbar {
+  background: #293038;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#wpadminbar li.hover, #wpadminbar li:hover {
+  -webkit-box-shadow: inset 0 -100px rgba(83, 83, 255, 0.1) !important;
+          box-shadow: inset 0 -100px rgba(83, 83, 255, 0.1) !important;
+}
+
+#wpadminbar li.hover a, #wpadminbar li:hover a {
+  background: none;
+}
+
+#wpadminbar li.hover .ab-sub-wrapper, #wpadminbar li.hover .ab-sub-wrapper *, #wpadminbar li:hover .ab-sub-wrapper, #wpadminbar li:hover .ab-sub-wrapper * {
+  display: none !important;
+}
+
+#wpadminbar #wp-admin-bar-my-account img {
+  border: none !important;
+  border-radius: 100px;
+  width: 22px;
+  height: 22px;
+}
+
+#wpadminbar #wp-admin-bar-my-account.hover, #wpadminbar #wp-admin-bar-my-account:hover {
+  -webkit-box-shadow: inset 0 -100px rgba(83, 83, 255, 0.1) !important;
+          box-shadow: inset 0 -100px rgba(83, 83, 255, 0.1) !important;
+}
+
+#wpadminbar #wp-admin-bar-my-account.hover a, #wpadminbar #wp-admin-bar-my-account:hover a {
+  background: none;
+  color: #5353EC;
+}
+
+#wpadminbar #wp-admin-bar-my-account.hover .ab-sub-wrapper, #wpadminbar #wp-admin-bar-my-account.hover .ab-sub-wrapper *, #wpadminbar #wp-admin-bar-my-account:hover .ab-sub-wrapper, #wpadminbar #wp-admin-bar-my-account:hover .ab-sub-wrapper * {
+  display: none !important;
+}
+
+#wpadminbar #wp-admin-bar-site-name {
+  background-image: url("/wp-content/plugins/neutron-cape/assets/Sidebar-brandmark.svg");
+  background-size: 80px;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  width: 100px;
+}
+
+#wpadminbar #wp-admin-bar-site-name.hover, #wpadminbar #wp-admin-bar-site-name:hover {
+  -webkit-box-shadow: inset 0 -100px rgba(83, 83, 255, 0.1) !important;
+          box-shadow: inset 0 -100px rgba(83, 83, 255, 0.1) !important;
+}
+
+#wpadminbar #wp-admin-bar-site-name.hover a, #wpadminbar #wp-admin-bar-site-name:hover a {
+  background: none;
+}
+
+#wpadminbar #wp-admin-bar-site-name.hover .ab-sub-wrapper, #wpadminbar #wp-admin-bar-site-name.hover .ab-sub-wrapper *, #wpadminbar #wp-admin-bar-site-name:hover .ab-sub-wrapper, #wpadminbar #wp-admin-bar-site-name:hover .ab-sub-wrapper * {
+  display: none !important;
+}
+
+#wpadminbar #wp-admin-bar-site-name .ab-item {
+  color: rgba(0, 0, 0, 0) !important;
+}
+
+#wpadminbar #wp-admin-bar-site-name .ab-item::before {
+  display: none;
+}
+
+#wpadminbar #wp-admin-bar-customize {
+  display: none;
+}
+
+#wpadminbar #wp-admin-bar-updates {
+  display: none;
+}
+
+#wpadminbar #wp-admin-bar-comments {
+  display: none;
+}
+
+#wpadminbar #wp-admin-bar-new-content {
+  display: none;
+}
+
+#wpadminbar #wp-admin-bar-search {
+  display: none;
+}
+
+#wpadminbar #wp-admin-bar-wp-logo {
+  display: none;
+}
+/*# sourceMappingURL=user.css.map */

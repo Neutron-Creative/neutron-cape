@@ -8,6 +8,15 @@
    Author URI: https://neutroncreative.com
    License: GPL2
    */
+
+   add_action('wp_footer', 'user_cape', 9999);
+
+   function user_cape() {
+      $url = plugin_dir_url(__FILE__) . '/assets/user.css';
+      $url = join('/', explode(' ', $url));
+      echo '<link rel="stylesheet" href="' . $url . '"/>';
+      echo '<link rel="stylesheet" href="' . $temporary_url . '"/>';
+   }
    
    add_action('admin_head', 'wear_cape', 9999);
 
