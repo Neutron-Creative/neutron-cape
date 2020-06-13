@@ -1,0 +1,75 @@
+table {
+	border-radius: 4px !important;
+	box-shadow: 0 2px 5px rgba(0,0,0,.1) !important;
+	border: solid 1px rgba(0,0,0,.1) !important;
+}
+
+a, .button {
+	background: rgba(83,83,256,.05) !important;
+	color: #5353EC !important;
+	border-color: rgba(83,83,256,.05) !important;
+	outline: none !important;
+}
+
+table a {
+	background: none !important;
+	outline: none !important;
+}
+
+.wp-core-ui .button-link {
+	color: #5353EC !important;
+}
+
+.media-toolbar.wp-filter {
+	border-radius: 4px !important;
+	box-shadow: 0 2px 5px rgba(0,0,0,.12) !important;
+	border: solid 1px rgba(0,0,0,.1) !important;
+}
+
+ul.ui-sortable li {
+	border-radius: 4px !important;
+	box-shadow: 0 2px 5px rgba(0,0,0,.05) !important;
+	overflow: hidden !important;
+	margin: 8px !important;
+	padding: 0 !important;
+	transition: .2s ease-in-out !important;
+}
+
+ul.ui-sortable li:hover {
+	transform: scale(1.03) !important;
+	border: none !important;
+}
+
+ul.ui-sortable li:active {
+	transform: scale(.98) !important;
+	border: none !important;
+}
+
+tr.active th, tr.active-snippet th {
+	border-color: #5353EC !important;
+}
+
+tr.active th, tr.active td, tr.active-snippet th, tr.active-snippet td {
+	background: rgba(83,83,256,.1) !important;
+}
+
+	.view-switch.media-grid-view-switch {
+		background: rgba(83,83,256,.1) !important;
+		padding: 0 !important;
+		margin: 12px 10px 12px auto !important;
+		border-radius: 2px !important;
+	}
+
+.view-switch a.current:before {
+	color: #5353EC !important;
+}
+
+ul.filter-links li a {
+	background: none !important;
+}
+
+table.form-table {
+	padding: 20px 40px !important;
+	background: #FFF !important;
+	display: flex !important;
+}
